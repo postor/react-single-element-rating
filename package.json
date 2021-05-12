@@ -1,33 +1,25 @@
 {
-  "name": "react-typescript",
+  "name": "react-single-element-rating",
   "version": "1.0.0",
-  "description": "React and TypeScript example starter project",
-  "keywords": [
-    "typescript",
-    "react",
-    "starter"
-  ],
-  "main": "src/index.tsx",
-  "dependencies": {
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-scripts": "4.0.0"
-  },
+  "main": "dist/index.js",
+  "dependencies": {},
   "devDependencies": {
+    "@types/node": "^15.0.2",
     "@types/react": "17.0.0",
-    "@types/react-dom": "17.0.0",
-    "typescript": "4.1.3"
+    "typescript": "^4.2.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/postor/react-single-element-rating.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/postor/react-single-element-rating/issues"
+  },
+  "homepage": "https://github.com/postor/react-single-element-rating#readme"
 }
