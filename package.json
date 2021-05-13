@@ -2,14 +2,16 @@
   "name": "react-single-element-rating",
   "version": "1.0.0",
   "main": "dist/index.js",
-  "dependencies": {},
+  "dependencies": {
+    "base-64": "^1.0.0"
+  },
   "devDependencies": {
     "@types/node": "^15.0.2",
     "@types/react": "17.0.0",
     "typescript": "^4.2.4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",

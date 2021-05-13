@@ -44,7 +44,9 @@ const Rating: FC<RatingProps> = ({
   let style = {
     ...base,
     backgroundImage: `${selectedBG(value)},${baseBG}`,
-    backgroundPosition: `0 0,0 0`
+    backgroundPosition: Number.isInteger(step)
+      ? `0 0,${value * height * step}px 0`
+      : `0 0,0 0`
   };
   return (
     <input
@@ -64,8 +66,7 @@ const Rating: FC<RatingProps> = ({
 
 export default Rating;
 
-export function getStyling(config: StylingConfig
-): StyleProp {
+export function getStyling(config: StylingConfig = {}): StyleProp {
   const {
     max = 5,
     height = 40,
